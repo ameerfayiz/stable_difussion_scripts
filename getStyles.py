@@ -164,7 +164,7 @@ def getRandomStyle():
       }
   }
 
-
+  style = ""
   style = style if (random.choice([True,True,True,False])==False) else f"{style}, {random.choice(detail)}"
   style = style if (random.choice([True,True,True,False])==False) else f"{style}, {random.choice(Resolution)}"
 
